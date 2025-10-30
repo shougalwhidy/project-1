@@ -50,103 +50,104 @@
 
 
 <div class="container my-5">
-    <p class="text-muted small mb-2">Home / Shopping Cart</p>
-    <h4 class="fw-bold mb-4">Cart (3 items)</h4>
+  <p class="text-muted small mb-2">Home / Shopping Cart</p>
+  <h4 class="fw-bold mb-4">Cart (3 items)</h4>
 
-    
-    <div class="row text-center py-2 cart-header d-none d-md-flex">
-      <div class="col-1"><i class="bi bi-trash"></i></div>
-      <div class="col-3">Photo</div>
-      <div class="col-3">Product</div>
-      <div class="col-2">Price</div>
-      <div class="col-2">Quantity</div>
-      <div class="col-1">Subtotal</div>
+  <!-- Header row -->
+  <div class="row text-center py-2 cart-header d-none d-md-flex fw-bold border-bottom">
+    <div class="col-1"><i class="bi bi-trash"></i></div>
+    <div class="col-3">Photo</div>
+    <div class="col-3">Product</div>
+    <div class="col-2">Price</div>
+    <div class="col-2">Quantity</div>
+    <div class="col-1">Subtotal</div>
+  </div>
+
+  <!-- Cart item -->
+  <div class="row align-items-center py-3 border-bottom">
+    <div class="col-12 col-md-1 text-center mb-2 mb-md-0 remove-btn">&times;</div>
+    <div class="col-12 col-md-3 text-center mb-2 mb-md-0">
+      <img src="./assets/img/DISCOVER NEW ARRIVALS/img 4.webp" class="img-fluid" alt="Product 1">
     </div>
-
-    
-    <div class="row cart-item">
-      <div class="col-1 text-center remove-btn">&times;</div>
-      <div class="col-3 text-center">
-        <img src="./assets/img/DISCOVER NEW ARRIVALS/img 4.webp" alt="Product 1">
-      </div>
-      <div class="col-3 fw-bold text-uppercase">Porcelain Dinner Plate (27cm)</div>
-      <div class="col-2">$59</div>
-      <div class="col-2">
-        <div class="quantity-box">
-          <span>-</span>
-          <span>2</span>
-          <span>+</span>
-        </div>
-      </div>
-      <div class="col-1 text-danger fw-bold">$98</div>
-    </div>
-
-   
-    <div class="row cart-item">
-      <div class="col-1 text-center remove-btn">&times;</div>
-      <div class="col-3 text-center">
-        <img src="./assets/img/DISCOVER NEW ARRIVALS/img 3.webp" alt="Product 2">
-      </div>
-      <div class="col-3 fw-bold text-uppercase">Ophelia Matte Natural Vase</div>
-      <div class="col-2">$168</div>
-      <div class="col-2">
-        <div class="quantity-box">
-          <span>-</span>
-          <span>1</span>
-          <span>+</span>
-        </div>
-      </div>
-      <div class="col-1 text-danger fw-bold">$68</div>
-    </div>
-
-  
-    <div class="row cart-item">
-      <div class="col-1 text-center remove-btn">&times;</div>
-      <div class="col-3 text-center">
-        <img src="./assets/img/DISCOVER NEW ARRIVALS/img 1.webp" alt="Product 3">
-      </div>
-      <div class="col-3 fw-bold text-uppercase">Porcelain Dinner Plate</div>
-      <div class="col-2">$70</div>
-      <div class="col-2">
-        <div class="quantity-box">
-          <span>-</span>
-          <span>1</span>
-          <span>+</span>
-        </div>
-      </div>
-      <div class="col-1 text-danger fw-bold">$70</div>
-    </div>
-
-    <div class="row mt-4">
-      <div class="col-md-6">
-        <div class="d-flex">
-          <input type="text" class="form-control me-2" placeholder="Coupon code">
-          <button class="btn-dark-custom">Apply Coupon</button>
-        </div>
-      </div>
-      <div class="col-md-6 text-md-end text-start mt-3 mt-md-0">
-        <button class="btn-dark-custom">Update Cart</button>
+    <div class="col-12 col-md-3 text-uppercase fw-bold mb-2 mb-md-0 text-center text-md-start">Porcelain Dinner Plate (27cm)</div>
+    <div class="col-6 col-md-2 text-center">$59</div>
+    <div class="col-6 col-md-2 text-center">
+      <div class="quantity-box d-inline-flex align-items-center justify-content-center border rounded px-2">
+        <span class="px-2">-</span>
+        <span class="px-2">2</span>
+        <span class="px-2">+</span>
       </div>
     </div>
+    <div class="col-12 col-md-1 text-center text-danger fw-bold mt-2 mt-md-0">$98</div>
+  </div>
 
-   
-    <div class="row justify-content-end mt-5">
-      <div class="col-md-4">
-        <div class="totals-box">
-          <h5 class="text-uppercase mb-3">Cart Totals</h5>
-          <div class="d-flex justify-content-between">
-            <span>Subtotal</span>
-            <span>$465.00</span>
-          </div>
-          <div class="d-flex justify-content-between mb-4">
-            <span>Cart Totals</span>
-            <span>$500.00</span>
-          </div>
-          <button class="btn w-100 py-2">Proceed to Checkout</button>
+  <!-- Cart item 2 -->
+  <div class="row align-items-center py-3 border-bottom">
+    <div class="col-12 col-md-1 text-center mb-2 mb-md-0 remove-btn">&times;</div>
+    <div class="col-12 col-md-3 text-center mb-2 mb-md-0">
+      <img src="./assets/img/DISCOVER NEW ARRIVALS/img 3.webp" class="img-fluid" alt="Product 2">
+    </div>
+    <div class="col-12 col-md-3 text-uppercase fw-bold mb-2 mb-md-0 text-center text-md-start">Ophelia Matte Natural Vase</div>
+    <div class="col-6 col-md-2 text-center">$168</div>
+    <div class="col-6 col-md-2 text-center">
+      <div class="quantity-box d-inline-flex align-items-center justify-content-center border rounded px-2">
+        <span class="px-2">-</span>
+        <span class="px-2">1</span>
+        <span class="px-2">+</span>
+      </div>
+    </div>
+    <div class="col-12 col-md-1 text-center text-danger fw-bold mt-2 mt-md-0">$68</div>
+  </div>
+
+  <!-- Cart item 3 -->
+  <div class="row align-items-center py-3 border-bottom">
+    <div class="col-12 col-md-1 text-center mb-2 mb-md-0 remove-btn">&times;</div>
+    <div class="col-12 col-md-3 text-center mb-2 mb-md-0">
+      <img src="./assets/img/DISCOVER NEW ARRIVALS/img 1.webp" class="img-fluid" alt="Product 3">
+    </div>
+    <div class="col-12 col-md-3 text-uppercase fw-bold mb-2 mb-md-0 text-center text-md-start">Porcelain Dinner Plate</div>
+    <div class="col-6 col-md-2 text-center">$70</div>
+    <div class="col-6 col-md-2 text-center">
+      <div class="quantity-box d-inline-flex align-items-center justify-content-center border rounded px-2">
+        <span class="px-2">-</span>
+        <span class="px-2">1</span>
+        <span class="px-2">+</span>
+      </div>
+    </div>
+    <div class="col-12 col-md-1 text-center text-danger fw-bold mt-2 mt-md-0">$70</div>
+  </div>
+
+  <!-- Coupon + Update buttons -->
+  <div class="row mt-4 gy-3">
+    <div class="col-12 col-md-6">
+      <div class="d-flex flex-column flex-sm-row">
+        <input type="text" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Coupon code">
+        <button class="btn btn-dark w-100 w-sm-auto">Apply Coupon</button>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 text-md-end">
+      <button class="btn btn-dark w-100 w-md-auto">Update Cart</button>
+    </div>
+  </div>
+
+  <!-- Totals box -->
+  <div class="row justify-content-end mt-5">
+    <div class="col-12 col-md-4">
+      <div class="totals-box bg-dark text-white p-4 rounded">
+        <h5 class="text-uppercase mb-3">Cart Totals</h5>
+        <div class="d-flex justify-content-between">
+          <span>Subtotal</span>
+          <span>$465.00</span>
         </div>
+        <div class="d-flex justify-content-between mb-4">
+          <span>Cart Totals</span>
+          <span>$500.00</span>
+        </div>
+        <button class="btn btn-light w-100 py-2 text-uppercase">Proceed to Checkout</button>
       </div>
     </div>
   </div>
+</div>
 
 
 

@@ -478,3 +478,23 @@ body {
   background-color: #fff;
   color: #2f2e3f;
 }
+
+/*   */
+.quantity-box span {
+  cursor: pointer;
+  user-select: none;
+}
+
+.remove-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #2e2b35;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #1d1b20;
+}
