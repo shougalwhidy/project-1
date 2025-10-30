@@ -2,10 +2,9 @@
 body{
   height: auto;      
   min-height: 100%;
-  padding-top: 80px;
-    margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  padding-top: 50px;
+   margin: 0;
+  box-sizing: border-box;
     background-color: #fff;
   font-family: 'Poppins', sans-serif;
   color: #333;
