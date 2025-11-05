@@ -50,6 +50,9 @@ body{
         z-index: 1200; 
       
     }
+    .navbar-collapse.collapse.show {
+  display: block !important;
+}
 
 
 
