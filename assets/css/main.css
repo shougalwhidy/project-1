@@ -55,13 +55,14 @@ body{
 }
 
 
-
-
 /* start hero section */
 .hero-section {
   background-image: url(./../img/hero/hero\ section.webp);
- 
 
+}
+
+.w-50 {
+  width: 50px;
 }
 
 .hero-text {
@@ -84,7 +85,6 @@ body{
   border-radius: 0;
   text-transform: uppercase;
 }
-
 
 .hero-section img {
   object-fit: cover;
@@ -511,3 +511,61 @@ body {
 .btn-dark:hover {
   background-color: #1d1b20;
 }
+
+.bg-1{
+  background-color: #c48b61;
+}
+.bg-2{
+  background-color: #333;
+}
+.bg-3{
+background-color: #d9b7b2;
+}
+
+.w-60{
+  width: 60px;
+}
+.h-20{
+  height: 20px;
+}
+
+/*  */
+.hero-section-contact {
+  background-image: url(./../img/hero\ contact.webp);
+
+}
+
+.w-50 {
+  width: 50px;
+}
+
+.hero-text {
+  background-color:#3A3845; 
+  padding: 100px 20px;
+}
+
+.hero-text h2 {
+  font-size: 28px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.hero-text p {
+  font-size: 14px;
+}
+.hero-section-contact img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+.text-color{
+color:#C69B7B;
+}
+
+.hero-img{
+  background-image:url(./../img/image\ 134.webp);
+  height: 500px; 
+  position: relative;
+}
+
